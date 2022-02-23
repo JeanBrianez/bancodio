@@ -1,8 +1,8 @@
-##Cronograma:
+###Cronograma:
 
-1 - Incluir Lombok;
+1. Incluir Lombok; **Realizado**;
 
-2 - Completar Classes;
+2. Completar Classes; **Pendente**;
 
-3 - Banco Liste Clientes e Contas;
+3. Banco Liste Clientes e Contas; **Pendente**;
 

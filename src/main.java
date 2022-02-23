@@ -1,22 +1,21 @@
 import models.Cliente;
-import models.Conta;
-import models.ContaCorrente;
-import models.ContaPoupanca;
 
 public class main {
     public static void main(String[] args) {
         Cliente Ana = new Cliente();
         Ana.setNome("Ana Clara");
 
-        Conta corrente = new ContaCorrente(Ana);
-        Conta poupanca = new ContaPoupanca(Ana);
+
+
+        /*Conta corrente = new ContaCorrente(Ana);
+        Conta poupança = new ContaPoupanca(Ana);
 
         corrente.depositar(1000d);
-        poupanca.depositar(500d);
+        poupança.depositar(500d);
         corrente.imprimirExtrato();
-        poupanca.imprimirExtrato();
-        corrente.transferir(200d,poupanca);
+        poupança.imprimirExtrato();
+        corrente.transferir(200d,poupança);
         corrente.imprimirExtrato();
-        poupanca.imprimirExtrato();
+        poupança.imprimirExtrato();*/
     }
 }

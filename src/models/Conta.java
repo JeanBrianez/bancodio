@@ -1,9 +1,10 @@
 package models;
 
 import interfaces.IConta;
+import lombok.Data;
 
-public abstract class Conta implements IConta {
-    private static final int AGENCIA_PADRAO = 1000;
+@Data public abstract class Conta implements IConta {
+    private static final int AGENCIA_ATUAL = 1000;
     private static int SEQUENCIAL = 1;
 
     private int agencia;
@@ -12,7 +13,7 @@ public abstract class Conta implements IConta {
     private Cliente cliente;
 
     public Conta(Cliente cliente) {
-        this.agencia = AGENCIA_PADRAO;
+        this.agencia = AGENCIA_ATUAL;
         this.numero = SEQUENCIAL++;
         this.cliente = cliente;
     }
@@ -33,35 +34,11 @@ public abstract class Conta implements IConta {
         contaDestino.depositar(valor);
     }
 
-    public int getAgencia() {
-        return agencia;
-    }
-
-    public void setAgencia(int agencia) {
-        this.agencia = agencia;
-    }
-
-    public int getNumero() {
-        return numero;
-    }
-
-    public void setNumero(int numero) {
-        this.numero = numero;
-    }
-
-    public double getSaldo() {
-        return saldo;
-    }
-
-    public void setSaldo(double saldo) {
-        this.saldo = saldo;
-    }
-
-    protected void ImprimirInfosComuns() {
-        System.out.println(String.format("Titular: %s", this.cliente.getNome()));
-        System.out.println(String.format("Agência: %d", this.getAgencia()));
-        System.out.println(String.format("Número : %d", this.getNumero()));
-        System.out.println(String.format("Saldo  : %.2f", this.getSaldo()));
+    protected void ImprimirInfoComuns() {
+        System.out.printf("Titular: %s%n", this.cliente.getNome());
+        System.out.printf("Agência: %d%n", this.getAgencia());
+        System.out.printf("Número : %d%n", this.getNumero());
+        System.out.printf("Saldo  : %.2f%n", this.getSaldo());
     }
 
 }
