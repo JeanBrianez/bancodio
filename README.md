@@ -1,6 +1,6 @@
 # [Digital Innovation One](https://www.dio.me) - Prática Java:
-- Exercício de código feito por mim, reproduzindo aula do mentor [Venilton FalvoJr](https://github.com/falvojr)
-- Código feito pelo mentor se encontra [aqui](https://github.com/falvojr/lab-banco-digital-oo)
+- Exercício de código feito por mim, reproduzindo aula do mentor [Venilton FalvoJr](https://github.com/falvojr);
+- Implementação de referência se encontra [aqui](https://github.com/falvojr/lab-banco-digital-oo);
 
 ## BancoDIO 
 - Neste projeto é feito um Sistema Bancário simples por meio de um console com CRUD em Java;
@@ -10,4 +10,4 @@
 - Inclui o cadastro de séries em um banco de dados;
 - Inclui execução da interface original em página web;
 
-#### Minhas observações sobre a realização do projeto se encontram no arquivo Obs.md
+#### Minhas observações sobre a realização do projeto se encontram no arquivo Obs.md.
