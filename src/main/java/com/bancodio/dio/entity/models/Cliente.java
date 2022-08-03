@@ -1,4 +1,4 @@
-package models;
+package com.bancodio.dio.entity.models;
 
 import lombok.Data;
 

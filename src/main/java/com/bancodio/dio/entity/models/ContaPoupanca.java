@@ -1,4 +1,4 @@
-package models;
+package com.bancodio.dio.entity.models;
 
 public class ContaPoupanca extends Conta{
 

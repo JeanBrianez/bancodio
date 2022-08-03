@@ -1,6 +1,6 @@
-package interfaces;
+package com.bancodio.dio.entity.interfaces;
 
-import models.Conta;
+import com.bancodio.dio.entity.models.Conta;
 
 public interface IConta {
     void sacar(double valor);

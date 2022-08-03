@@ -1,6 +1,6 @@
-package models;
+package com.bancodio.dio.entity.models;
 
-import interfaces.IConta;
+import com.bancodio.dio.entity.interfaces.IConta;
 import lombok.Data;
 
 @Data public abstract class Conta implements IConta {

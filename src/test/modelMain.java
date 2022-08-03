@@ -1,6 +1,6 @@
-import models.Cliente;
+import entity.models.Cliente;
 
-public class main {
+public class modelMain {
     public static void main(String[] args) {
         Cliente Ana = new Cliente();
         Ana.setNome("Ana Clara");
