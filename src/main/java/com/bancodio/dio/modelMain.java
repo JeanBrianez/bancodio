@@ -1,3 +1,10 @@
+package com.bancodio.dio;
+
+import com.bancodio.dio.entity.models.Cliente;
+import com.bancodio.dio.entity.models.Conta;
+import com.bancodio.dio.entity.models.ContaCorrente;
+import com.bancodio.dio.entity.models.ContaPoupanca;
+
 public class modelMain {
     public static void main(String[] args) {
         Cliente Ana = new Cliente();
